@@ -1,0 +1,65 @@
+@prefix rml:   <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr:    <http://www.w3.org/ns/r2rml#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix fno:   <https://w3id.org/function/ontology#> .
+@prefix fnml:  <http://semweb.mmlab.be/ns/fnml#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ql:    <http://semweb.mmlab.be/ns/ql#> .
+@prefix rks:   <http://localhost:7280/ontology/rks/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix ex:    <http://example.org/> .
+@prefix :      <http://www.dfki.uni-kl.de/~mschroeder/demo/excel-rml#> .
+@prefix ss:    <http://www.dfki.uni-kl.de/~mschroeder/ld/ss#> .
+
+:ls1
+    a rml:LogicalSource ;
+    rml:referenceFormulation ql:Spreadsheet ;
+    rml:source [
+      a ss:Workbook;
+      ss:url "spreadsheets/gtfs.xlsx" ;
+      ss:sheetName "agency" ;
+      ss:range "A2:A5" ;
+    ] .
+
+:tm1 a rr:TriplesMap ;
+  rml:logicalSource :ls1 ;
+  rr:subjectMap [ 
+    a rr:SubjectMap ;
+    rr:class     ex:Agency ;
+    rr:template  "http://example.org/{address}"
+  ] ;
+  rr:predicateObjectMap [
+    a rr:PredicateObjectMap ;
+    rr:predicateMap  [ 
+      a rr:PredicateMap ;
+      rr:constant  ex:id
+    ] ;
+    rr:objectMap [ 
+      a rr:ObjectMap ;
+      rml:reference  "valueString"
+    ]
+  ] ;  rr:predicateObjectMap [
+    a rr:PredicateObjectMap ;
+    rr:predicateMap  [ 
+      a rr:PredicateMap ;
+      rr:constant  ex:name
+    ] ;
+    rr:objectMap [ 
+      a rr:ObjectMap ;
+      rml:reference  "(1,0).valueString"
+    ]
+  ] ;  rr:predicateObjectMap [
+    a rr:PredicateObjectMap ;
+    rr:predicateMap  [ 
+      a rr:PredicateMap ;
+      rr:constant  ex:url
+    ] ;
+    rr:objectMap [ 
+      a rr:ObjectMap ;
+      rml:reference  "(2,0).valueString" ;
+      rr:termType rr:IRI
+    ]
+  ] .
