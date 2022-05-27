@@ -1,0 +1,122 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rev: <http://purl.org/stuff/rev#> .
+@prefix v: <http://rdf.data-vocabulary.org/#> .
+@prefix schema: <http://schema.org/> .
+@prefix gtfs: <http://vocab.gtfs.org/terms#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+
+<http://transport.linkeddata.es/madrid/metro/routes/4__1___> rdf:type gtfs:Route ;
+	gtfs:shortName "1" ;
+	gtfs:longName "Pinar de Chamartín-Valdecarros" ;
+	gtfs:routeType <http://transport.linkeddata.es/resource/RouteType/1> ;
+	gtfs:routeUrl <http://www.crtm.es/tu-transporte-publico/metro/lineas/4__1___.aspx> ;
+	gtfs:color "2DBEF0" ;
+	gtfs:textColor "FFFFFF" .
+
+<http://transport.linkeddata.es/madrid/metro/routes/4__10___> rdf:type gtfs:Route ;
+	gtfs:shortName "10" ;
+	gtfs:longName "Hospital del Norte-Puerta del Sur" ;
+	gtfs:routeType <http://transport.linkeddata.es/resource/RouteType/1> ;
+	gtfs:routeUrl <http://www.crtm.es/tu-transporte-publico/metro/lineas/4__10___.aspx> ;
+	gtfs:color "005AA9" ;
+	gtfs:textColor "FFFFFF" .
+
+<http://transport.linkeddata.es/madrid/metro/routes/4__11___> rdf:type gtfs:Route ;
+	gtfs:shortName "11" ;
+	gtfs:longName "Plaza Elíptica-La Fortuna" ;
+	gtfs:routeType <http://transport.linkeddata.es/resource/RouteType/1> ;
+	gtfs:routeUrl <http://www.crtm.es/tu-transporte-publico/metro/lineas/4__11___.aspx> ;
+	gtfs:color "009B3A" ;
+	gtfs:textColor "FFFFFF" .
+
+<http://transport.linkeddata.es/madrid/metro/routes/4__12___> rdf:type gtfs:Route ;
+	gtfs:shortName "12" ;
+	gtfs:longName "MetroSur" ;
+	gtfs:routeType <http://transport.linkeddata.es/resource/RouteType/1> ;
+	gtfs:routeUrl <http://www.crtm.es/tu-transporte-publico/metro/lineas/4__12___.aspx> ;
+	gtfs:color "A49800" ;
+	gtfs:textColor "FFFFFF" .
+
+<http://transport.linkeddata.es/madrid/metro/routes/4__2___> rdf:type gtfs:Route ;
+	gtfs:shortName "2" ;
+	gtfs:longName "Las Rosas-Cuatro Caminos" ;
+	gtfs:routeType <http://transport.linkeddata.es/resource/RouteType/1> ;
+	gtfs:routeUrl <http://www.crtm.es/tu-transporte-publico/metro/lineas/4__2___.aspx> ;
+	gtfs:color "ED1C24" ;
+	gtfs:textColor "FFFFFF" .
+
+<http://transport.linkeddata.es/madrid/metro/routes/4__3___> rdf:type gtfs:Route ;
+	gtfs:shortName "3" ;
+	gtfs:longName "Villaverde Alto-Moncloa" ;
+	gtfs:routeType <http://transport.linkeddata.es/resource/RouteType/1> ;
+	gtfs:routeUrl <http://www.crtm.es/tu-transporte-publico/metro/lineas/4__3___.aspx> ;
+	gtfs:color "FFD000" ;
+	gtfs:textColor "000000" .
+
+<http://transport.linkeddata.es/madrid/metro/routes/4__4___> rdf:type gtfs:Route ;
+	gtfs:shortName "4" ;
+	gtfs:longName "Pinar de Chamartín-Argüelles" ;
+	gtfs:routeType <http://transport.linkeddata.es/resource/RouteType/1> ;
+	gtfs:routeUrl <http://www.crtm.es/tu-transporte-publico/metro/lineas/4__4___.aspx> ;
+	gtfs:color "B65518" ;
+	gtfs:textColor "FFFFFF" .
+
+<http://transport.linkeddata.es/madrid/metro/routes/4__5___> rdf:type gtfs:Route ;
+	gtfs:shortName "5" ;
+	gtfs:longName "Alameda de Osuna-Casa de Campo" ;
+	gtfs:routeType <http://transport.linkeddata.es/resource/RouteType/1> ;
+	gtfs:routeUrl <http://www.crtm.es/tu-transporte-publico/metro/lineas/4__5___.aspx> ;
+	gtfs:color "8FD400" ;
+	gtfs:textColor "FFFFFF" .
+
+<http://transport.linkeddata.es/madrid/metro/routes/4__6___> rdf:type gtfs:Route ;
+	gtfs:shortName "6" ;
+	gtfs:longName "Circular" ;
+	gtfs:routeType <http://transport.linkeddata.es/resource/RouteType/1> ;
+	gtfs:routeUrl <http://www.crtm.es/tu-transporte-publico/metro/lineas/4__6___.aspx> ;
+	gtfs:color "98989B" ;
+	gtfs:textColor "FFFFFF" .
+
+<http://transport.linkeddata.es/madrid/metro/routes/4__7___> rdf:type gtfs:Route ;
+	gtfs:shortName "7" ;
+	gtfs:longName "Hospital del Henares-Pitis" ;
+	gtfs:routeType <http://transport.linkeddata.es/resource/RouteType/1> ;
+	gtfs:routeUrl <http://www.crtm.es/tu-transporte-publico/metro/lineas/4__7___.aspx> ;
+	gtfs:color "EE7518" ;
+	gtfs:textColor "FFFFFF" .
+
+<http://transport.linkeddata.es/madrid/metro/routes/4__8___> rdf:type gtfs:Route ;
+	gtfs:shortName "8" ;
+	gtfs:longName "Nuevos Ministerios - Aeropuerto T4" ;
+	gtfs:routeType <http://transport.linkeddata.es/resource/RouteType/1> ;
+	gtfs:routeUrl <http://www.crtm.es/tu-transporte-publico/metro/lineas/4__8___.aspx> ;
+	gtfs:color "EC82B1" ;
+	gtfs:textColor "FFFFFF" .
+
+<http://transport.linkeddata.es/madrid/metro/routes/4__9___> rdf:type gtfs:Route ;
+	gtfs:shortName "9" ;
+	gtfs:longName "Paco de Lucía-Arganda del Rey" ;
+	gtfs:routeType <http://transport.linkeddata.es/resource/RouteType/1> ;
+	gtfs:routeUrl <http://www.crtm.es/tu-transporte-publico/metro/lineas/4__9___.aspx> ;
+	gtfs:color "A60084" ;
+	gtfs:textColor "FFFFFF" .
+
+<http://transport.linkeddata.es/madrid/metro/routes/4__R___> rdf:type gtfs:Route ;
+	gtfs:shortName "R" ;
+	gtfs:longName "Opera-Príncipe Pío" ;
+	gtfs:routeType <http://transport.linkeddata.es/resource/RouteType/1> ;
+	gtfs:routeUrl <http://www.crtm.es/tu-transporte-publico/metro/lineas/4__R___.aspx> ;
+	gtfs:color "FFFFFF" ;
+	gtfs:textColor "005AA9" .
+
+
