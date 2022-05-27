@@ -1,0 +1,5 @@
+[{"service_id":"4_I12", "monday":0, "tuesday":0, "wednesday":0, "thursday":0, "friday":0, "saturday":1, "sunday":0, "start_date":"2017-06-29", "end_date":"2018-06-29"},
+ {"service_id":"4_I13", "monday":0, "tuesday":0, "wednesday":0, "thursday":0, "friday":0, "saturday":0, "sunday":1, "start_date":"2017-06-29", "end_date":"2018-06-29"},
+ {"service_id":"4_I14", "monday":1, "tuesday":1, "wednesday":1, "thursday":1, "friday":0, "saturday":0, "sunday":0, "start_date":"2017-06-29", "end_date":"2018-06-29"},
+ {"service_id":"4_I15", "monday":0, "tuesday":0, "wednesday":0, "thursday":0, "friday":1, "saturday":0, "sunday":0, "start_date":"2017-06-29", "end_date":"2018-06-29"},
+ {"service_id":"4_I16", "monday":0, "tuesday":0, "wednesday":0, "thursday":0, "friday":1, "saturday":0, "sunday":0, "start_date":"2017-06-29", "end_date":"2018-06-29"}]
