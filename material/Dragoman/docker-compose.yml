@@ -1,0 +1,14 @@
+version: "2"
+services:
+  Dragoman:
+    image: sdmtib/dragoman:ESWC2022
+    hostname: dragoman 
+    container_name: dragoman
+    domainname: eswc
+    volumes:
+      - ./:/data
+    networks:
+      - eswc2022
+networks:
+  eswc2022:
+    external: true
