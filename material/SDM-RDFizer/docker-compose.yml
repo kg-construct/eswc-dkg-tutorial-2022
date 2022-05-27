@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  sdmrdfizer:
+    image: sdmtib/sdmrdfizer:4.4.2
+    hostname: sdmrdfizer 
+    container_name: sdmrdfizer
+    domainname: eswc
+    volumes:
+      - ./:/data
