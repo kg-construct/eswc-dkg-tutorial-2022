@@ -1,0 +1,51 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,wheelchair_boarding
+acc_4_1_1,1,Plaza de Castilla,Paseo de la Castellana 189,40.46682,-3.68918,,http://www.crtm.es,2,est_90_21,,0
+acc_4_1_1040,1,Ascensor,Plaza de Castilla 9,40.46555,-3.68877,,http://www.crtm.es,2,est_90_21,,0
+acc_4_1_1043,1,Intercambiador Superficie,Paseo de la Castellana 191 B,40.46728,-3.68915,,http://www.crtm.es,2,est_90_21,,0
+acc_4_1_1044,1,Ascensor,Paseo de la Castellana 189,40.46702,-3.68918,,http://www.crtm.es,2,est_90_21,,0
+acc_4_1_2,1,Castellana impares,Paseo de la Castellana 189,40.46722,-3.68952,,http://www.crtm.es,2,est_90_21,,0
+acc_4_1_3,1,Bravo Murillo,Calle de Bravo Murillo 377,40.46629,-3.69036,,http://www.crtm.es,2,est_90_21,,0
+acc_4_1_4,1,Paseo Castellana pares,Plaza de Castilla 9,40.46546,-3.68891,,http://www.crtm.es,2,est_90_21,,0
+acc_4_1_773,1,Intercambiador,Plaza de Castilla 3,40.46621,-3.69028,,http://www.crtm.es,2,est_90_21,,0
+acc_4_10_34,10,Barceló,Calle de Barceló 2,40.42628,-3.70082,,http://www.crtm.es,2,est_4_10,,0
+acc_4_10_35,10,Fuencarral,Calle de Fuencarral 78,40.4262,-3.70103,,http://www.crtm.es,2,est_4_10,,0
+acc_4_10_36,10,Tribunal de Cuentas,Calle de Fuencarral 81,40.42569,-3.70111,,http://www.crtm.es,2,est_4_10,,0
+acc_4_100_271,100,Avda. Poblados,Avda de los Poblados 41,40.38582,-3.76105,,http://www.crtm.es,2,est_90_1,,0
+acc_4_100_272,100,Maqueda,Calle de Maqueda SN,40.38597,-3.76088,,http://www.crtm.es,2,est_90_1,,0
+acc_4_100_273,100,Acceso RENFE,Avda de los Poblados 41,40.38576,-3.7612,,http://www.crtm.es,2,est_90_1,,0
+acc_4_100_274,100,Maqueda,Calle de Maqueda SN,40.38595,-3.76085,,http://www.crtm.es,2,est_90_1,,0
+acc_4_100_275,100,Avda. Poblados,Avda de los Poblados 41,40.38538,-3.76067,,http://www.crtm.es,2,est_90_1,,0
+acc_4_100_276,100,Terminal Autobuses,Calle de Valmojado SN,40.3853,-3.76043,,http://www.crtm.es,2,est_90_1,,0
+acc_4_100_277,100,Terminal Autobuses,Calle de Valmojado 293,40.38546,-3.76043,,http://www.crtm.es,2,est_90_1,,0
+acc_4_101_278,101,Padre Piquer,Calle de Padre Piquer 37,40.39085,-3.76591,,http://www.crtm.es,2,est_4_101,,0
+acc_4_102_279,102,Padre Piquer pares,Avda del Padre Piquer 8,40.39445,-3.76827,,http://www.crtm.es,2,est_4_102,,0
+acc_4_102_280,102,Padre Piquer impares,Avda del Padre Piquer 7,40.39469,-3.7681,,http://www.crtm.es,2,est_4_102,,0
+acc_4_103_281,103,Camino de Campamento s/n,Ctra del Zoo SN,40.40318,-3.7609,,http://www.crtm.es,2,est_4_103,,0
+acc_4_103_282,103,Ascensor,Ctra del Zoo SN,40.40331,-3.76103,,http://www.crtm.es,2,est_4_103,,0
+acc_4_104_1029,104,Ascensor nº1,Calle de Cuart de Poblet 1 B,40.39918,-3.74464,,http://www.crtm.es,2,est_4_104,,0
+acc_4_104_1030,104,Ascensor nº2,Calle de Cuart de Poblet 1 B,40.39915,-3.74463,,http://www.crtm.es,2,est_4_104,,0
+acc_4_104_1031,104,Ascensor nº3,Calle de Cuart de Poblet 1 B,40.39913,-3.74463,,http://www.crtm.es,2,est_4_104,,0
+acc_4_104_284,104,Alhambra pares,Calle de la Alhambra 56,40.39917,-3.74454,,http://www.crtm.es,2,est_4_104,,0
+acc_4_104_285,104,Alhambra impares,Calle de la Alhambra 33,40.39903,-3.74422,,http://www.crtm.es,2,est_4_104,,0
+acc_4_105_1033,105,Ascensor exterior nº1,Calle  Vía Carpetana 141,40.39278,-3.74097,,http://www.crtm.es,2,est_4_105,,0
+acc_4_105_1035,105,Nuestra Señora de Valvanera - via Carpetana - Ateca,Calle  Vía Carpetana 139,40.39332,-3.74058,,http://www.crtm.es,2,est_4_105,,0
+acc_4_105_1036,105,Ascensor exterior nº2,Calle  Vía Carpetana 139,40.39322,-3.74069,,http://www.crtm.es,2,est_4_105,,0
+acc_4_105_286,105,Vía Carpetana,Calle  Vía Carpetana 306,40.39277,-3.74134,,http://www.crtm.es,2,est_4_105,,0
+acc_4_107_287,107,Portalegre pares,Calle de Portalegre 98,40.38635,-3.72348,,http://www.crtm.es,2,est_4_107,,0
+acc_4_107_288,107,Portalegre impares,Calle de Portalegre 73,40.38584,-3.72337,,http://www.crtm.es,2,est_4_107,,0
+acc_4_108_289,108,Avda. Oporto pares,Avda de Oporto 4,40.38529,-3.71853,,http://www.crtm.es,2,est_90_36,,0
+acc_4_108_290,108,Pza. Fernández Ladreda,Plaza de Fernández Ladreda 5,40.38561,-3.71776,,http://www.crtm.es,2,est_90_36,,0
+acc_4_108_291,108,Ascensor,Plaza de Fernández Ladreda 5,40.38537,-3.71815,,http://www.crtm.es,2,est_90_36,,0
+acc_4_108_292,108,Marcelo Usera pares,Calle de Marcelo Usera 170,40.38529,-3.71618,,http://www.crtm.es,2,est_90_36,,0
+acc_4_108_293,108,Marcelo Usera impares,Plaza de Fernández Ladreda 2,40.38512,-3.71672,,http://www.crtm.es,2,est_90_36,,0
+acc_4_108_800,108,Acceso intercambiador,Calle  Vía Lusitana 2,40.38448,-3.71823,,http://www.crtm.es,2,est_90_36,,0
+acc_4_109_294,109,Amparo Usera,Calle de Amparo Usera 46,40.38703,-3.70663,,http://www.crtm.es,2,est_4_109,,0
+acc_4_109_295,109,Mirasierra,Calle de Mirasierra 41,40.38822,-3.70374,,http://www.crtm.es,2,est_4_109,,0
+acc_4_109_806,109,Ascensor exterior,Plaza de Amparo Usera  1,40.38701,-3.7068,,http://www.crtm.es,2,est_4_109,,0
+acc_4_11_37,11,Gran Vía,Calle  Gran Vía 21,40.41991,-3.7013,,http://www.crtm.es,2,est_4_11,,0
+acc_4_11_38,11,Gran Vía,Calle  Gran Vía 23,40.41992,-3.70183,,http://www.crtm.es,2,est_4_11,,0
+acc_4_11_39,11,Fuencarral,Calle  Gran vía 28,40.42013,-3.70181,,http://www.crtm.es,2,est_4_11,,0
+acc_4_11_40,11,Montera,Calle de la Montera 44,40.41951,-3.70167,,http://www.crtm.es,2,est_4_11,,0
+acc_4_111_296,111,Méndez Alvaro impares,Calle de Mendez Álvaro 73,40.39611,-3.6806,,http://www.crtm.es,2,est_90_13,,0
+acc_4_111_297,111,Méndez Alvaro pares,Calle de Méndez Álvaro 64 C,40.39594,-3.68087,,http://www.crtm.es,2,est_90_13,,0
+acc_4_111_299,111,Pedro Bosch,Calle de Pedro Bosch SN,40.39629,-3.67882,,http://www.crtm.es,2,est_90_13,,0

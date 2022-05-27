@@ -1,0 +1,128 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#>.
+@prefix fno: <https://w3id.org/function/ontology#>.
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix ex: <http://mapping.example.com/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix rev: <http://purl.org/stuff/rev#>.
+@prefix gtfs: <http://vocab.gtfs.org/terms#>.
+@prefix schema: <http://schema.org/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix eablock: <https://github.com/SDM-TIB/EABlock> .
+@prefix sdmkgc: <https://github.com/SDM-TIB/KGC/vocab/> .
+
+<http://mapping.example.com/map_stops_0>
+    a rr:TriplesMap;
+    rml:logicalSource [ rml:source "/data/data-sample-GTFS-STOPS.csv";
+                rml:referenceFormulation ql:CSV
+                ];
+    rr:subjectMap <stop_function_1> ;
+    rr:termType rr:IRI;
+
+    rr:predicateObjectMap [
+        rr:predicate rdf:type;
+        rr:objectMap [
+            rr:constant "http://vocab.gtfs.org/terms#Stop"
+        ]
+    ].
+
+
+<http://mapping.example.com/map_stops_1>
+    a rr:TriplesMap;
+    rml:logicalSource [ rml:source "/data/data-sample-GTFS-STOPS.csv";
+                rml:referenceFormulation ql:CSV
+                ];
+    rr:subjectMap [
+        rr:template "http://transport.linkeddata.es/madrid/metro/stops/{stop_id}";
+    ];
+    rr:predicateObjectMap [
+        rr:predicate foaf:name;
+        rr:objectMap <stop_function_1> ;
+        rr:termType rr:IRI;
+    ].
+ 
+
+##########################################################################################
+######################################## Functions #######################################
+##########################################################################################
+
+<stop_function_1>
+    rr:termType rr:IRI;
+    
+    fnml:functionValue [
+        rml:logicalSource [ rml:source "/data/data-sample-GTFS-STOPS.csv";
+        rml:referenceFormulation ql:CSV 
+                            ];
+        rr:predicateObjectMap [
+            rr:predicate fno:executes ;
+            rr:objectMap [ 
+                rr:constant sdmkgc:concat2
+            ]
+        ];
+        rr:predicateObjectMap [
+            rr:predicate sdmkgc:value1;
+            rr:objectMap [ 
+                rr:constant "http://transport.linkeddata.es/madrid/metro/stops/";
+            ]
+        ];
+        rr:predicateObjectMap [
+            rr:predicate sdmkgc:value2;
+            rr:objectMap <stop_function_2> ;
+        ];    
+    ].
+
+<stop_function_2>
+
+    fnml:functionValue [
+        rml:logicalSource [ rml:source "/data/data-sample-GTFS-STOPS.csv";
+        rml:referenceFormulation ql:CSV 
+                            ];
+        rr:predicateObjectMap [
+            rr:predicate fno:executes ;
+            rr:objectMap [ 
+                rr:constant sdmkgc:tolower
+            ]
+        ];
+        rr:predicateObjectMap [
+            rr:predicate sdmkgc:value;
+            rr:objectMap <stop_function_3> ;
+        ];    
+    ].
+
+<stop_function_3>
+
+    fnml:functionValue [
+        rml:logicalSource [ rml:source "/data/data-sample-GTFS-STOPS.csv";
+        rml:referenceFormulation ql:CSV 
+                            ];
+        rr:predicateObjectMap [
+            rr:predicate fno:executes ;
+            rr:objectMap [ 
+                rr:constant sdmkgc:replaceValue 
+            ]
+        ];
+        rr:predicateObjectMap [
+            rr:predicate sdmkgc:value;
+            rr:objectMap [ 
+                rml:reference "stop_name" 
+            ]
+        ];
+        rr:predicateObjectMap [
+            rr:predicate sdmkgc:value2;
+            rr:objectMap [ 
+                rr:constant " " 
+            ]
+        ];  
+        rr:predicateObjectMap [
+            rr:predicate sdmkgc:value3;
+            rr:objectMap [ 
+                rr:constant "_" 
+            ]
+        ];   
+    ].
