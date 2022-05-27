@@ -1,0 +1,83 @@
+{
+    "id": "https://testdata.com/my-test-dataset",
+    "type": [
+      "schema:PlaceOfWorship",
+      "thuecat:ReligiousBuilding"
+    ],
+    "schema:isAccessibleForFree": {
+      "value": "false",
+      "type": "schema:Boolean"
+    },
+    "schema:openingHoursSpecification": [
+      {
+        "schema:closes": {
+          "value": "18:00:00",
+          "type": "schema:Time"
+        },
+        "schema:dayOfWeek": [
+          {
+            "value": "schema:Saturday",
+            "type": "schema:DayOfWeek"
+          },
+          {
+            "value": "schema:Sunday",
+            "type": "schema:DayOfWeek"
+          }
+        ],
+        "schema:validThrough": {
+          "value": "2022-10-31",
+          "type": "schema:Date"
+        },
+        "schema:validFrom": {
+          "value": "2022-04-01",
+          "type": "schema:Date"
+        },
+        "type": "schema:OpeningHoursSpecification",
+        "schema:opens": {
+          "value": "09:00:00",
+          "type": "schema:Time"
+        }
+      }
+    ],
+    "schema:description": [
+      {
+        "language": "de",
+        "value": "In der Mitte des 12. Jahrhunderts wurde die Kirche als kleine Marienkapelle..."
+      },
+      {
+        "language": "en",
+        "value": "In the middle of the 12th century, the church was built as a small Lady chapel..."
+      }
+    ],
+    "schema:sameAs": {
+      "type": "schema:URL",
+      "value": "https://www.outdooractive.com/de/33540986"
+    },
+    "schema:name": [
+      {
+        "language": "de",
+        "value": "Widenkirche Weida"
+      },
+      {
+        "language": "en",
+        "value": "Widenkirche Weida"
+      }
+    ],
+    "schema:image": [
+      {
+        "id": "https://dev-cdb.thuecat.org/resources/dms_5207871"
+      }
+    ],
+    "schema:hasMap": {
+      "type": "schema:URL",
+      "value": "https://goo.gl/maps/hesnXhaZ9uep3PF97"
+    },
+    "schema:url": {
+      "type": "schema:URL",
+      "value": "http://www.weida.de"
+    },
+    "schema:publicAccess": {
+      "type": "schema:Boolean",
+      "value": "false"
+    }
+  }

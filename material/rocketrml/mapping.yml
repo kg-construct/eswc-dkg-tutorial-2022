@@ -1,0 +1,59 @@
+prefixes:
+  schema: "https://schema.org/"
+  myfunc: "http://myfunc.com/"
+  ds: "https://vocab.sti2.at/ds/"
+  rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+
+sources:
+  top: ["input~jsonpath", "$"]
+
+mappings:
+  person:
+    sources:
+      - top
+    s: $(id)
+    po:
+      - [a, odta:PointOfInterest]
+      - [a, $(type.*)]
+      - [ds:compliesWith, https://semantify.it/ds/sloejGAwT~iri]
+      - [schema:name, "$(['schema:name'][?(@.language==='de')].value)", de~lang]
+      - [schema:name, "$(['schema:name'][?(@.language==='en')].value)", en~lang]
+      - [
+          schema:description,
+          "$(['schema:description'][?(@.language==='de')].value)",
+          de~lang,
+        ]
+      - [
+          schema:description,
+          "$(['schema:description'][?(@.language==='en')].value)",
+          en~lang,
+        ]
+      - [schema:image, { mapping: image, join: [id, ^^id] }]
+      - [schema:sameAs, "$(['schema:sameAs'].value)"]
+      - [schema:openingHoursSpecification, { mapping: hours, join: [id, ^^id] }]
+      - [schema:isAccessibleForFree, "$(['schema:isAccessibleForFree'].value)", schema:Boolean]
+      - [schema:url, "$(['schema:url'].value)"]
+
+
+  image:
+    sources:
+      - ["input~jsonpath", "$.['schema:image'].*"]
+    po:
+      - [a, schema:ImageObject]
+      - [schema:url, $(id)]
+      - [schema:contentUrl, $(id)]
+
+  hours:
+    sources:
+      - ["input~jsonpath", "$.['schema:openingHoursSpecification'].*"]
+    po:
+      - [a, schema:OpeningHoursSpecification]
+      - [schema:validFrom, "$(['schema:validFrom'].value)"]
+      #- [schema:validFrom, {fn: myfunc:asDateTime, pms: ["$(['schema:validFrom'])"]}]
+      - [schema:validThrough, "$(['schema:validThrough'].value)"]
+      - [schema:opens, "$(['schema:opens'].value)"]
+      - [schema:closes, "$(['schema:closes'].value)"]
+      - [schema:dayOfWeek, "$(['schema:dayOfWeek'].*.value)"]
+      #- [schema:dayOfWeek, {fn: myfunc:asEnum, pms: ["$(['schema:dayOfWeek'])"]}]
+      
