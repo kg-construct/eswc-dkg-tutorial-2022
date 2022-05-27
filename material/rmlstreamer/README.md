@@ -25,3 +25,11 @@ You can re-use the same setup from above, we restart from step 7.
 3. Press 'Submit' and wait until the job shows 'FINISHED'
 4. Copy the generated RDF back: `docker cp rmlstreamer_taskmanager_1:/mnt/data/output.nt .`
 5. Print results: `cat output.nt`
+
+# About
+
+Tutorial for YARRRML & RMLStreamer provided by Dylan Van Assche (IDLab - Ghent University - imec).
+
+- E-mail: dylan.vanassche@ugent.be
+- Website: https://dylanvanassche.be
+- Twitter: @DylanVanAssche
