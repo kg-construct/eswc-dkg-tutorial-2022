@@ -1,0 +1,101 @@
+DrugBankID,DrugName,URL
+DB00001,Lepirudin,https://github.com/SDM-TIB/KGC/entity/Lepirudin
+DB00002,Cetuximab,https://github.com/SDM-TIB/KGC/entity/Cetuximab
+DB00003,Dornase alfa,https://github.com/SDM-TIB/KGC/entity/Dornase_alfa
+DB00004,Denileukin diftitox,https://github.com/SDM-TIB/KGC/entity/Denileukin_diftitox
+DB00005,Etanercept,https://github.com/SDM-TIB/KGC/entity/Etanercept
+DB00006,Bivalirudin,https://github.com/SDM-TIB/KGC/entity/Bivalirudin
+DB00007,Leuprolide,https://github.com/SDM-TIB/KGC/entity/Leuprolide
+DB00008,Peginterferon alfa-2a,https://github.com/SDM-TIB/KGC/entity/Peginterferon_alfa-2a
+DB00009,Alteplase,https://github.com/SDM-TIB/KGC/entity/Alteplase
+DB00010,Sermorelin,https://github.com/SDM-TIB/KGC/entity/Sermorelin
+DB00011,Interferon alfa-n1,https://github.com/SDM-TIB/KGC/entity/Interferon_alfa-n1
+DB00012,Darbepoetin alfa,https://github.com/SDM-TIB/KGC/entity/Darbepoetin_alfa
+DB00013,Urokinase,https://github.com/SDM-TIB/KGC/entity/Urokinase
+DB00014,Goserelin,https://github.com/SDM-TIB/KGC/entity/Goserelin
+DB00015,Reteplase,https://github.com/SDM-TIB/KGC/entity/Reteplase
+DB00016,Erythropoietin,https://github.com/SDM-TIB/KGC/entity/Erythropoietin
+DB00017,Salmon Calcitonin,https://github.com/SDM-TIB/KGC/entity/Salmon_Calcitonin
+DB00018,Interferon alfa-n3,https://github.com/SDM-TIB/KGC/entity/Interferon_alfa-n3
+DB00019,Pegfilgrastim,https://github.com/SDM-TIB/KGC/entity/Pegfilgrastim
+DB00020,Sargramostim,https://github.com/SDM-TIB/KGC/entity/Sargramostim
+DB00021,Secretin,https://github.com/SDM-TIB/KGC/entity/Secretin
+DB00022,Peginterferon alfa-2b,https://github.com/SDM-TIB/KGC/entity/Peginterferon_alfa-2b
+DB00023,Asparaginase Escherichia coli,https://github.com/SDM-TIB/KGC/entity/Peginterferon_alfa-2b
+DB00024,Thyrotropin Alfa,https://github.com/SDM-TIB/KGC/entity/Thyrotropin_Alfa
+DB00025,"Antihemophilic factor, human recombinant",
+DB00026,Anakinra,https://github.com/SDM-TIB/KGC/entity/Anakinra
+DB00027,Gramicidin D,https://github.com/SDM-TIB/KGC/entity/Gramicidin_D
+DB00028,Immune Globulin Human,https://github.com/SDM-TIB/KGC/entity/Immune_Globulin_Human
+DB00029,Anistreplase,https://github.com/SDM-TIB/KGC/entity/Anistreplase
+DB00030,Insulin Human,https://github.com/SDM-TIB/KGC/entity/Insulin_Human
+DB00031,Tenecteplase,https://github.com/SDM-TIB/KGC/entity/Tenecteplase
+DB00032,Menotropins,https://github.com/SDM-TIB/KGC/entity/Menotropins
+DB00033,Interferon gamma-1b,https://github.com/SDM-TIB/KGC/entity/nterferon_gamma-1b
+DB00034,"Interferon Alfa-2a, Recombinant",
+DB00035,Desmopressin,https://github.com/SDM-TIB/KGC/entity/Desmopressin
+DB00036,Coagulation factor VIIa Recombinant Human,
+DB00038,Oprelvekin,https://github.com/SDM-TIB/KGC/entity/Oprelvekin
+DB00039,Palifermin,https://github.com/SDM-TIB/KGC/entity/Palifermin
+DB00040,Glucagon recombinant,https://github.com/SDM-TIB/KGC/entity/Glucagon_recombinant
+DB00041,Aldesleukin,https://github.com/SDM-TIB/KGC/entity/Aldesleukin
+DB00042,Botulinum Toxin Type B,
+DB00043,Omalizumab,https://github.com/SDM-TIB/KGC/entity/Omalizumab
+DB00044,Lutropin alfa,https://github.com/SDM-TIB/KGC/entity/Lutropin_alfa
+DB00045,Lyme disease vaccine (recombinant OspA),
+DB00046,Insulin Lispro,https://github.com/SDM-TIB/KGC/entity/Insulin_Lispro
+DB00047,Insulin Glargine,https://github.com/SDM-TIB/KGC/entity/Insulin_Glargine
+DB00048,Collagenase clostridium histolyticum,
+DB00049,Rasburicase,https://github.com/SDM-TIB/KGC/entity/Rasburicase
+DB00050,Cetrorelix,https://github.com/SDM-TIB/KGC/entity/Cetrorelix
+DB00051,Adalimumab,https://github.com/SDM-TIB/KGC/entity/Adalimumab
+DB00052,Somatotropin,https://github.com/SDM-TIB/KGC/entity/Somatotropin
+DB00053,Imiglucerase,https://github.com/SDM-TIB/KGC/entity/Imiglucerase
+DB00054,Abciximab,https://github.com/SDM-TIB/KGC/entity/Abciximab
+DB00055,Drotrecogin alfa,https://github.com/SDM-TIB/KGC/entity/Drotrecogin_alfa
+DB00056,Gemtuzumab ozogamicin,https://github.com/SDM-TIB/KGC/entity/Gemtuzumab_ozogamicin
+DB00057,Indium In-111 satumomab pendetide,
+DB00058,Alpha-1-proteinase inhibitor,
+DB00059,Pegaspargase,https://github.com/SDM-TIB/KGC/entity/Pegaspargase
+DB00060,Interferon beta-1a,https://github.com/SDM-TIB/KGC/entity/Interferon_beta-1a
+DB00061,Pegademase bovine,https://github.com/SDM-TIB/KGC/entity/Pegademase_bovine
+DB00062,Human Serum Albumin,https://github.com/SDM-TIB/KGC/entity/Human_Serum_Albumin
+DB00063,Eptifibatide,https://github.com/SDM-TIB/KGC/entity/Eptifibatide
+DB00065,Infliximab,https://github.com/SDM-TIB/KGC/entity/Infliximab
+DB00066,Follitropin,https://github.com/SDM-TIB/KGC/entity/Follitropin
+DB00067,Vasopressin,https://github.com/SDM-TIB/KGC/entity/Vasopressin
+DB00068,Interferon beta-1b,https://github.com/SDM-TIB/KGC/entity/Interferon_beta-1b
+DB00069,Interferon alfacon-1,https://github.com/SDM-TIB/KGC/entity/Interferon_alfacon-1
+DB00070,Hyaluronidase,https://github.com/SDM-TIB/KGC/entity/Hyaluronidase
+DB00071,Insulin Pork,https://github.com/SDM-TIB/KGC/entity/Insulin_Pork
+DB00072,Trastuzumab,https://github.com/SDM-TIB/KGC/entity/Trastuzumab
+DB00073,Rituximab,https://github.com/SDM-TIB/KGC/entity/Rituximab
+DB00074,Basiliximab,https://github.com/SDM-TIB/KGC/entity/Basiliximab
+DB00075,Muromonab,https://github.com/SDM-TIB/KGC/entity/Muromonab
+DB00076,Digoxin Immune Fab (Ovine),
+DB00078,Ibritumomab tiuxetan,https://github.com/SDM-TIB/KGC/entity/Ibritumomab_tiuxetan
+DB00080,Daptomycin,https://github.com/SDM-TIB/KGC/entity/Daptomycin
+DB00081,Tositumomab,https://github.com/SDM-TIB/KGC/entity/Tositumomab
+DB00082,Pegvisomant,https://github.com/SDM-TIB/KGC/entity/Pegvisomant
+DB00083,Botulinum Toxin Type A,
+DB00085,Pancrelipase,https://github.com/SDM-TIB/KGC/entity/Pancrelipase
+DB00086,Streptokinase,https://github.com/SDM-TIB/KGC/entity/Streptokinase
+DB00087,Alemtuzumab,https://github.com/SDM-TIB/KGC/entity/Alemtuzumab
+DB00088,Alglucerase,https://github.com/SDM-TIB/KGC/entity/Alglucerase
+DB00089,Capromab pendetide,https://github.com/SDM-TIB/KGC/entity/Capromab_pendetide
+DB00090,Laronidase,https://github.com/SDM-TIB/KGC/entity/Laronidase
+DB00091,Cyclosporine,https://github.com/SDM-TIB/KGC/entity/Cyclosporine
+DB00092,Alefacept,https://github.com/SDM-TIB/KGC/entity/Alefacept
+DB00093,Felypressin,https://github.com/SDM-TIB/KGC/entity/Felypressin
+DB00094,Urofollitropin,https://github.com/SDM-TIB/KGC/entity/Urofollitropin
+DB00095,Efalizumab,https://github.com/SDM-TIB/KGC/entity/Efalizumab
+DB00097,Choriogonadotropin alfa,https://github.com/SDM-TIB/KGC/entity/Choriogonadotropin_alfa
+DB00098,Antithymocyte immunoglobulin (rabbit),
+DB00099,Filgrastim,https://github.com/SDM-TIB/KGC/entity/Filgrastim
+DB00100,Coagulation Factor IX (Recombinant),
+DB00102,Becaplermin,https://github.com/SDM-TIB/KGC/entity/Becaplermin
+DB00103,Agalsidase beta,https://github.com/SDM-TIB/KGC/entity/Agalsidase_beta
+DB00104,Octreotide,https://github.com/SDM-TIB/KGC/entity/Octreotide
+DB00105,"Interferon Alfa-2b, Recombinant",
+DB00106,Abarelix,https://github.com/SDM-TIB/KGC/entity/Abarelix
+DB00107,Oxytocin,https://github.com/SDM-TIB/KGC/entity/Oxytocin

@@ -1,0 +1,108 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#>.
+@prefix fno: <https://w3id.org/function/ontology#>.
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix : <http://mapping.example.com/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix rev: <http://purl.org/stuff/rev#>.
+@prefix gtfs: <http://vocab.gtfs.org/terms#>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix schema: <http://schema.org/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+
+<http://mapping.example.com/map_stops_0>
+    a rr:TriplesMap;
+    rml:logicalSource [ rml:source "/data/STOPS.csv";
+                rml:referenceFormulation ql:CSV
+                ];
+    rr:subjectMap [
+        rr:template "http://transport.linkeddata.es/madrid/metro/stops/{stop_id}";
+    ];
+    rr:predicateObjectMap [
+        rr:predicate geo:lat;
+        rr:objectMap [
+            rml:reference "stop_lat";
+            rr:datatype xsd:double;
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate geo:long;
+        rr:objectMap [
+            rml:reference "stop_lon";
+            rr:datatype xsd:double;
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate gtfs:timeZone;
+        rr:objectMap [
+            rml:reference "stop_timezone";
+            rr:termType rr:Literal;
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate foaf:name;
+        rr:objectMap [
+            rml:reference "stop_name";
+            rr:termType rr:Literal;
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate rdf:type;
+        rr:objectMap [
+            rr:constant "http://vocab.gtfs.org/terms#Stop"
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate gtfs:code;
+        rr:objectMap [
+            rml:reference "stop_code";
+            rr:termType rr:Literal;
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate gtfs:zone;
+        rr:objectMap [
+            rml:reference "zone_id";
+            rr:termType rr:Literal;
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dct:identifier;
+        rr:objectMap [
+            rml:reference "stop_id";
+            rr:termType rr:Literal;
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate foaf:page;
+        rr:objectMap [
+            rml:reference "stop_url";
+            rr:termType rr:IRI;
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dct:description;
+        rr:objectMap [
+            rml:reference "stop_desc";
+            rr:termType rr:Literal;
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate gtfs:locationType;
+        rr:objectMap [
+            rr:template  "http://transport.linkeddata.es/resource/LocationType/{location_type}"
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate gtfs:wheelchairAccessible;
+        rr:objectMap [
+            rr:template  "http://transport.linkeddata.es/resource/WheelchairBoardingStatus/{wheelchair_boarding}"
+        ]
+    ].
+
