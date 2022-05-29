@@ -10,11 +10,10 @@
 6. Select the RMLStreamer jar to upload it
 7. Copy mapping rules to Docker: `docker cp data/example/mapping.rml.ttl rmlstreamer_taskmanager_1:/mnt/data/mapping.rml.ttl`
 8. Copy data to Docker: `docker cp data/example/input.json rmlstreamer_taskmanager_1:/mnt/data/input.json`
-9. Give permissions to write: `chmod -R 777 /var/lib/docker/volumes/rmlstreamer_data/_data`
-10. Click on the RMLStreamer jar upload and enter the following Program Arguments: `toFile --mapping-file /mnt/data/mapping.rml.ttl --output-path /mnt/data/output.nt`
-11. Press 'Submit' and wait until the job shows 'FINISHED'
-12. Copy the generated RDF back: `docker cp rmlstreamer_taskmanager_1:/mnt/data/output.nt .`
-13. Print results: `cat output.nt`
+9. Click on the RMLStreamer jar upload and enter the following Program Arguments: `toFile --mapping-file /mnt/data/mapping.rml.ttl --output-path /mnt/data/output.nt`
+10. Press 'Submit' and wait until the job shows 'FINISHED'
+11. Copy the generated RDF back: `docker cp rmlstreamer_taskmanager_1:/mnt/data/output.nt .`
+12. Print results: `cat output.nt`
 
 ## GTFS
 
