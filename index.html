@@ -44,19 +44,19 @@
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         // Output the result in an element with id="demo"
-        document.getElementById("demo").innerHTML = days + " days " + hours + "h "+ minutes + "m " + seconds + "s ";
+        //document.getElementById("demo").innerHTML = days + " days " + hours + "h "+ minutes + "m " + seconds + "s ";
 
         // If the count down is over, write some text
-        if (distance < 0) {
-          clearInterval(x);
-          document.getElementById("demo").innerHTML = "EXPIRED";
+        //if (distance < 0) {
+         // clearInterval(x);
+         // document.getElementById("demo").innerHTML = "EXPIRED";
         }
-      }, 1000);
+      //}, 1000);
     </script>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <h3 class="navbar-brand js-scroll-trigger">Time to start:</h3>
-      <h3 id=demo></h3>
+      <h3 class="navbar-brand js-scroll-trigger">Date of the event:</h3>
+      <h3 id=demo>29-05-2022</h3>
      <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">
 
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="static/img/profile.jpg" alt="">
